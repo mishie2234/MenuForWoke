@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		448C618C1D657698005915E1 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448C618B1D657698005915E1 /* Home.swift */; };
+		44EA0A421D64E18100290C79 /* MenuForWokeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EA0A411D64E18100290C79 /* MenuForWokeTests.swift */; };
+		44EA0A4D1D64E18100290C79 /* MenuForWokeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EA0A4C1D64E18100290C79 /* MenuForWokeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		448C618B1D657698005915E1 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		44EA0A2C1D64E18100290C79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		44EA0A2E1D64E18100290C79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		44EA0A311D64E18100290C79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44EA0A331D64E18100290C79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44EA0A361D64E18100290C79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44EA0A381D64E18100290C79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44EA0A3D1D64E18100290C79 /* MenuForWokeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenuForWokeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44EA0A411D64E18100290C79 /* MenuForWokeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuForWokeTests.swift; sourceTree = "<group>"; };
+		44EA0A431D64E18100290C79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44EA0A481D64E18100290C79 /* MenuForWokeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenuForWokeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44EA0A4C1D64E18100290C79 /* MenuForWokeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuForWokeUITests.swift; sourceTree = "<group>"; };
+		44EA0A4E1D64E18100290C79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44EA0A5A1D64E22100290C79 /* MenuForWoke-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MenuForWoke-Bridging-Header.h"; sourceTree = "<group>"; };
+		44EA0A5B1D64E22100290C79 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		44EA0A5C1D64E22100290C79 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		44EA0A601D64E5A600290C79 /* BackTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackTableVC.swift; sourceTree = "<group>"; };
+		44EC17C81D650ED900D9B86D /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44EA0A3A1D64E18100290C79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44EA0A451D64E18100290C79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44EA0A201D64E18100290C79 = {
+			isa = PBXGroup;
+			children = (
+				44EC17C81D650ED900D9B86D /* Home.swift */,
+				44EA0A2B1D64E18100290C79 /* MenuForWoke */,
+				44EA0A401D64E18100290C79 /* MenuForWokeTests */,
+				44EA0A4B1D64E18100290C79 /* MenuForWokeUITests */,
+				44EA0A2A1D64E18100290C79 /* Products */,
+				44EA0A5B1D64E22100290C79 /* SWRevealViewController.h */,
+				44EA0A5C1D64E22100290C79 /* SWRevealViewController.m */,
+				44EA0A5A1D64E22100290C79 /* MenuForWoke-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		44EA0A2A1D64E18100290C79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44EA0A3D1D64E18100290C79 /* MenuForWokeTests.xctest */,
+				44EA0A481D64E18100290C79 /* MenuForWokeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44EA0A2B1D64E18100290C79 /* MenuForWoke */ = {
+			isa = PBXGroup;
+			children = (
+				44EA0A2C1D64E18100290C79 /* AppDelegate.swift */,
+				44EA0A2E1D64E18100290C79 /* ViewController.swift */,
+				44EA0A301D64E18100290C79 /* Main.storyboard */,
+				448C618B1D657698005915E1 /* Home.swift */,
+				44EA0A331D64E18100290C79 /* Assets.xcassets */,
+				44EA0A351D64E18100290C79 /* LaunchScreen.storyboard */,
+				44EA0A381D64E18100290C79 /* Info.plist */,
+				44EA0A601D64E5A600290C79 /* BackTableVC.swift */,
+			);
+			path = MenuForWoke;
+			sourceTree = "<group>";
+		};
+		44EA0A401D64E18100290C79 /* MenuForWokeTests */ = {
+			isa = PBXGroup;
+			children = (
+				44EA0A411D64E18100290C79 /* MenuForWokeTests.swift */,
+				44EA0A431D64E18100290C79 /* Info.plist */,
+			);
+			path = MenuForWokeTests;
+			sourceTree = "<group>";
+		};
+		44EA0A4B1D64E18100290C79 /* MenuForWokeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				44EA0A4C1D64E18100290C79 /* MenuForWokeUITests.swift */,
+				44EA0A4E1D64E18100290C79 /* Info.plist */,
+			);
+			path = MenuForWokeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44EA0A3C1D64E18100290C79 /* MenuForWokeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44EA0A541D64E18100290C79 /* Build configuration list for PBXNativeTarget "MenuForWokeTests" */;
+			buildPhases = (
+				44EA0A391D64E18100290C79 /* Sources */,
+				44EA0A3A1D64E18100290C79 /* Frameworks */,
+				44EA0A3B1D64E18100290C79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MenuForWokeTests;
+			productName = MenuForWokeTests;
+			productReference = 44EA0A3D1D64E18100290C79 /* MenuForWokeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		44EA0A471D64E18100290C79 /* MenuForWokeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44EA0A571D64E18100290C79 /* Build configuration list for PBXNativeTarget "MenuForWokeUITests" */;
+			buildPhases = (
+				44EA0A441D64E18100290C79 /* Sources */,
+				44EA0A451D64E18100290C79 /* Frameworks */,
+				44EA0A461D64E18100290C79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MenuForWokeUITests;
+			productName = MenuForWokeUITests;
+			productReference = 44EA0A481D64E18100290C79 /* MenuForWokeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44EA0A211D64E18100290C79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "GWC project";
+				TargetAttributes = {
+					44EA0A3C1D64E18100290C79 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 44EA0A281D64E18100290C79;
+					};
+					44EA0A471D64E18100290C79 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 44EA0A281D64E18100290C79;
+					};
+				};
+			};
+			buildConfigurationList = 44EA0A241D64E18100290C79 /* Build configuration list for PBXProject "MenuForWoke" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44EA0A201D64E18100290C79;
+			productRefGroup = 44EA0A2A1D64E18100290C79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44EA0A3C1D64E18100290C79 /* MenuForWokeTests */,
+				44EA0A471D64E18100290C79 /* MenuForWokeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44EA0A3B1D64E18100290C79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44EA0A461D64E18100290C79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44EA0A391D64E18100290C79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				448C618C1D657698005915E1 /* Home.swift in Sources */,
+				44EA0A421D64E18100290C79 /* MenuForWokeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44EA0A441D64E18100290C79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44EA0A4D1D64E18100290C79 /* MenuForWokeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		44EA0A301D64E18100290C79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44EA0A311D64E18100290C79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44EA0A351D64E18100290C79 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44EA0A361D64E18100290C79 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44EA0A4F1D64E18100290C79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44EA0A501D64E18100290C79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44EA0A551D64E18100290C79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MenuForWokeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joj.MenuForWokeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MenuForWoke.app/MenuForWoke";
+			};
+			name = Debug;
+		};
+		44EA0A561D64E18100290C79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MenuForWokeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joj.MenuForWokeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MenuForWoke.app/MenuForWoke";
+			};
+			name = Release;
+		};
+		44EA0A581D64E18100290C79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MenuForWokeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joj.MenuForWokeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MenuForWoke;
+			};
+			name = Debug;
+		};
+		44EA0A591D64E18100290C79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MenuForWokeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joj.MenuForWokeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MenuForWoke;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44EA0A241D64E18100290C79 /* Build configuration list for PBXProject "MenuForWoke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44EA0A4F1D64E18100290C79 /* Debug */,
+				44EA0A501D64E18100290C79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44EA0A541D64E18100290C79 /* Build configuration list for PBXNativeTarget "MenuForWokeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44EA0A551D64E18100290C79 /* Debug */,
+				44EA0A561D64E18100290C79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44EA0A571D64E18100290C79 /* Build configuration list for PBXNativeTarget "MenuForWokeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44EA0A581D64E18100290C79 /* Debug */,
+				44EA0A591D64E18100290C79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44EA0A211D64E18100290C79 /* Project object */;
+}
